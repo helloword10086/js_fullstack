@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Player(name)  {
+            this.enemy = null;
+            this.name = name;
+   //conslog.log(this);
+   //js 函数跟其他语言不一样，函数一定会存在一个this ，指针，总会指向什么
+   //函数是js 里的一等对象，js 除啦
+   //this 指向实例化后的对象
+}
+Play.prototype.win = function(){
+    console.log(this.name + " win");
+}
+Play.prototype.lose=function(){
+    console.log(this.name + " lose");
+}
+// 将类实例化 类抽象概念 对象可以new 出来
+//函数可以构建类？
+//一个函数首字母大写约束，区别于普通函数
+//运行的方式 new ，构造函数
+var player1  = new Player("皮蛋");
+console.log(player1.name + " shamgx");
+var player2  = new Player("xiaogai");
+console.log(play2.name + " wi上线");
+player1.enemy = player2;
+player2.enemy = player1;g
+player.win();
+player2.lose();
+     //console.log(player1.name);
+     //var player2  = new Player("皮蛋");
+     //console.log(player2.name);
+     
+        </script>
+</body>
+</html>
